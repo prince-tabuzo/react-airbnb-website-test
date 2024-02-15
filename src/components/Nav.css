@@ -1,6 +1,16 @@
+.nav-header{
+  position: sticky;
+    top: 0;
+}
+
 .nav {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    display: flex;
+    background-color: white;
+
   }
+
+
 
 .nav-logo{
     margin-left: 40px;
