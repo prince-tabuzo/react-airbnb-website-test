@@ -1,0 +1,30 @@
+.nav-header{
+
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #21222A;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav-logo{
+padding-left: 25px;
+width: 50%;
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+.nav-items{
+padding-right: 25px;
+color: aliceblue;
+font-size: 30px;
+display: flex;
+flex-wrap: wrap;
+
+}

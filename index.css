@@ -1,0 +1,8 @@
+.body {
+  background-color:#282D35;
+  background-image: url("src\assets\bg-logo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right; 
+  background-size: 200px;
+  }

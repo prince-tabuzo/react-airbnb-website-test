@@ -1,0 +1,2 @@
+Use that to run your shit:
+npm run dev
