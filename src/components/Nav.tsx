@@ -1,13 +1,10 @@
-import NavItems from "./NavItems";
-import NavLogo from "./NavLogo";
 import "./Nav.css";
 
 function Nav() {
   return (
     <header className="nav-header">
       <nav className="nav">
-        <NavLogo />
-        <NavItems />
+        <img className="nav-logo" src="src/assets/airbnb_logo.png"></img>
       </nav>
     </header>
   );
