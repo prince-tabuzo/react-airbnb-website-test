@@ -1,13 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .card{
-width: 250px;   
+/* width: 250px;    */
 display: flex;
-background-color: rgb(117, 117, 117);
+/* background-color: rgb(117, 117, 117); */
+border: none;
+border-color:transparent;
+--bs-border-color-translucent: rgba(0, 0, 0, 0);
 }
 
 .card-div-state{

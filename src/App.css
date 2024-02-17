@@ -5,7 +5,8 @@
 }
 
 .card-div{
-
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
 
 }

@@ -31,7 +31,54 @@ function App() {
             price="125"
           />
         </div>
+        <div>
+          <Card
+            state="SOLD OUT"
+            img="src/assets/card_content_image_3.png"
+            title="Creative Cooking"
+            rating="4.7"
+            rating_num="26"
+            price="140"
+          />
+        </div>
+        <div>
+          <Card
+            state="AVAILABLE"
+            img="src/assets/card_content_image_4.png"
+            title="Mastering Meditation"
+            rating="4.5"
+            rating_num="12"
+            price="175"
+          />
+        </div>
+        <div>
+          <Card
+            state="SOLD OUT"
+            img="src/assets/card_content_image_5.png"
+            title="Gardening Guidance"
+            rating="4.3"
+            rating_num="23"
+            price="100"
+          />
+        </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
