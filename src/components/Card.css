@@ -5,10 +5,9 @@
 }
 
 .card{
-width: 250px;  
+width: 250px;   
 display: flex;
 background-color: rgb(117, 117, 117);
-
 }
 
 .card-div-state{
@@ -22,32 +21,25 @@ background-color: rgb(117, 117, 117);
     padding-right: 8px;
     padding-top: 2px;
     padding-bottom: 2px;
-
 }
 
 .card-state{   
-    
     margin-bottom: 0;
 }
 
 .card-content-image{
-width: 250px;
-content: attr(data-caption);
+    width: 250px;
+    content: attr(data-caption);
 }
 .card-div-rating{
     margin-top: 5px;
     display: flex;
-    
-    
-
 }
 
 .card-div-rating > p{
     padding-left: 3px;
     margin: 0;
 }
-
-
 
 .card-star{
     margin-top: 3px;
@@ -61,7 +53,8 @@ content: attr(data-caption);
 
 .card-content-title{
     margin: 0;
-
+    font-size: 1.063rem;
+    font-weight: normal;
 }
 
 .card-div-price{

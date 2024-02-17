@@ -1,25 +1,40 @@
 import "./Card.css";
+import React from "react";
 
-function Card() {
+interface props {
+  state: string;
+  img: string;
+  title: string;
+  rating: string;
+  rating_num: string;
+  price: string;
+}
+
+function Card({ state, img, title, rating, rating_num, price }: props) {
   return (
     <div className="card">
       <div className="card-div-state">
-        <p className="card-state">SOLD OUT</p>
+        <p className="card-state">{state}</p>
       </div>
       <img
+        alt="Card content image."
         className="card-content-image"
-        src="src/assets/card_content_image_1.png"
+        src={img}
       ></img>
       <div className="card-div-rating">
-        <img className="card-star" src="src/assets/card_star.png"></img>
-        <p className="card-rating-1">5.0</p>
-        <p className="card-rating-2">(6)●USA</p>
+        <img
+          alt="Star icaon."
+          className="card-star"
+          src="src/assets/card_star.png"
+        ></img>
+        <p className="card-rating-1">{rating}</p>
+        <p className="card-rating-2">({rating_num})●USA</p>
       </div>
       <div className="card-div-title">
-        <p className="card-content-title">Life lessons with Katie Zaferes</p>
+        <h2 className="card-content-title">{title}</h2>
       </div>
       <div className="card-div-price">
-        <p className="card-price-1">From $136</p>
+        <p className="card-price-1">From ${price}</p>
         <p className="card-price-2">/</p>
         <p className="card-price-2">person</p>
       </div>
