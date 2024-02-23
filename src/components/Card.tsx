@@ -5,9 +5,9 @@ interface props {
   state: string;
   img: string;
   title: string;
-  rating: string;
-  rating_num: string;
-  price: string;
+  rating: number;
+  rating_num: number;
+  price: number;
 }
 
 function Card({ state, img, title, rating, rating_num, price }: props) {
@@ -19,7 +19,7 @@ function Card({ state, img, title, rating, rating_num, price }: props) {
       <img
         alt="Card content image."
         className="card-content-image"
-        src={img}
+        src={`src/assets/${img}`}
       ></img>
       <div className="card-div-rating">
         <img
