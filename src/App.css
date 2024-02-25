@@ -1,18 +1,17 @@
 .app{
 
-
-
 }
 
 .card-div{
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 100%;
     display: flex;
+    align-items: start;
+    justify-content: center;
 
 }
 
 .card-div > div{
-
-margin-right: 50px;
-
+    margin: 10px;
+    align-items: center;
+    gap: 10px;
 }
