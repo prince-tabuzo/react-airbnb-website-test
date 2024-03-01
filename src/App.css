@@ -1,17 +1,23 @@
 .app{
+    box-sizing: border-box;
+}
+
+.card-list{
+    width: 100%;
+    display: flex;
+    /* align-items: start; */
+    /* justify-content: center; */
+
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
 
 }
 
 .card-div{
-    width: 100%;
-    display: flex;
-    align-items: start;
-    justify-content: center;
 
-}
+    margin-left: 5%;
+    margin-right: 5%;
 
-.card-div > div{
-    margin: 10px;
-    align-items: center;
-    gap: 10px;
 }

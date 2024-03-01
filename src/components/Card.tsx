@@ -2,19 +2,36 @@ import "./Card.css";
 import React from "react";
 
 interface props {
-  state: string;
   img: string;
   title: string;
   rating: number;
   rating_num: number;
+  location: string;
   price: number;
+  slots: number;
 }
 
-function Card({ state, img, title, rating, rating_num, price }: props) {
+function Card({
+  img,
+  title,
+  rating,
+  rating_num,
+  location,
+  price,
+  slots,
+}: props) {
+  let badgeText;
+  if (slots === 0) {
+    badgeText = "Sold Out";
+  } else if (location === "Online") {
+    badgeText = "Online";
+  } else {
+    badgeText = location;
+  }
   return (
     <div className="card">
       <div className="card-div-state">
-        <p className="card-state">{state}</p>
+        <p className="card-state">{badgeText}</p>
       </div>
       <img
         alt="Card content image."
@@ -28,7 +45,9 @@ function Card({ state, img, title, rating, rating_num, price }: props) {
           src="src/assets/card_star.png"
         ></img>
         <p className="card-rating-1">{rating}</p>
-        <p className="card-rating-2">({rating_num})●USA</p>
+        <p className="card-rating-2">
+          ({rating_num})●{location}
+        </p>
       </div>
       <div className="card-div-title">
         <h2 className="card-content-title">{title}</h2>

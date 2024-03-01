@@ -10,13 +10,17 @@ display: flex;
 border: none;
 border-color:transparent;
 --bs-border-color-translucent: rgba(0, 0, 0, 0);
+
+flex: 0 0 auto;     
+display: flex;         
+flex-direction: column; 
 }
 
 .card-div-state{
     border-radius: 4px;
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 10px;
+    left: 10px;
     background-color: whitesmoke;
     margin: 0;
     padding-left: 8px;
